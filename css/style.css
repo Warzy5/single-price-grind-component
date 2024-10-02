@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F2F2F2;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+main {
+    background-color: white;
+    height: 475px;
+    width: 635px;
+    font-family: 'Karla';
+}
+
+.monthly-subs {
+    background-color: #2AB3B1;
+    width: 50%;
+    color: white;
+    padding: 32px;
+} 
+
+.why-us {
+    background-color: #4BBFBC;
+    width: 50%;
+    color: white;
+    
+}
+
+.box-container {
+    display: flex;
+    height: 259px;
+    width: 100%;
+}
+
+.offer-info {
+    height: 45%;
+    padding: 16px;
+}
+
+.monthly-price {
+    display: flex; 
+    justify-content: flex-start;
+    align-items: center;
+    height: 20px;
+}
+
+h1 {
+    color: #2AB3B1;
+}
+
+.promotion {
+    color: #C0DF33;
+}
+
+.explanation {
+    color: #9AA7BE;
+}
+
+a {
+    display: flex;
+    background-color: #C0DF33;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 40px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    padding: 4px;
+}
+
+A:hover {
+    background-color: greenyellow;
+}
